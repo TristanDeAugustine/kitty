@@ -1,12 +1,78 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
 }
 
 html {
   height: 100%;
+  background-color: #008aa1;
 }
 
 body {
-  margin: 0;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-bottom: 30rem;
+  margin-top: 0.5rem;
   min-height: 100%;
+  background-color: rgba(248, 242, 242, 0.76);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu {
+  border-color: #00bfd5;
+  background-color: #00bfd5;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #e5f8f9;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 2px solid #42a9ba;
+  font-size: 25px;
+  padding: 0.5rem;
+}
+
+.cat {
+  width: 20rem;
+  height: 17rem;
+}
+
+.dad {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 5rem;
+  font-size: 22px;
+}
+
+.fat_cat {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+.top {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 2rem;
+}
+
+.footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  border: 1rem solid #d3d3d3;
+  background-color: #d3d3d3;
+  text-decoration: underline;
+  list-style: none;
 }
